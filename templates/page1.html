@@ -1,10 +1,18 @@
 {% extends "layout.html" %}
 
-{% set active_page = "page1" %}
+{% set active_page = "Page 1" %}
 
 {% block title %}Page 1{% endblock %}
 
 {% block content %}
     <!--page content-->
-    <h1>Page 1</h1>
+<div class="container mt-3">
+    <h1>Usernames</h1>
+    
+    <p>{{a}}</p>
+    <p>{{b}}</p>
+    <p>{{c}}</p>
+    <p>{{d}}</p>
+    <p>{{e}}</p>
+</div>
 {% endblock %}

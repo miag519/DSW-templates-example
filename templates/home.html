@@ -6,5 +6,36 @@
 
 {% block content %}
     <!--page content-->
-    <h1>Home Page</h1>
+    <h1 class="container mt-3">Username Generator</h1>
+    
+<div class="container mt-3">
+  <form action='/response'>
+    <div class="mb-3 mt-3">
+      <label for="word">Any word:</label>
+      <input type="text" class="form-control" id="word" placeholder="For example your name, etc" name="word">
+    </div>
+    <br>
+    <div class="mb-3">
+      <label for="word1">Any word #2:</label>
+      <input type="text" class="form-control" id="word2" placeholder="For example a color, etc" name="word2">
+    </div>
+    <br>
+    <div class="mb-3">
+      <label for="word3">Last word:</label>
+      <input type="text" class="form-control" id="word3" placeholder="Write something cool!" name="word3">
+    </div>
+    <br>
+    <div class="mb-3">
+      <label for="number">Number:</label>
+      <input type="text" class="form-control" id="number" placeholder="Try your lucky number" name="number">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+    
+    
+    
+    
 {% endblock %}
+
