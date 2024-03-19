@@ -1,6 +1,39 @@
 #content {
      margin-left: 20px;
 }
-* {
+.centered {
+text-align: center;
+}
+.fonts1 {
 font-family: "Lucida Handwriting", cursive;
+}
+.fonts {
+font-family:monospace;
+}
+body {
+background-color: #95b1af;
+}
+nav {
+background-color: #465362;
+}
+.button {
+  background-color: #011936;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.color {
+background-color: #c4d4d3;
 }
